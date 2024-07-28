@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-default-values-manager"
+description = "comfyui-default-values-manager"
+version = "1.0.0"
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/christian-byrne/comfyui-default-values-manager"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui-default-values-manager"
+Icon = ""
