@@ -1,6 +1,6 @@
 [project]
 name = "comfyui-default-values-manager"
-description = "comfyui-default-values-manager"
+description = "Adds a setting that lets you configure the default input values that nodes will load with"
 version = "1.0.0"
 license = "LICENSE"
 
@@ -9,6 +9,6 @@ Repository = "https://github.com/christian-byrne/comfyui-default-values-manager"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "christian-byrne"
 DisplayName = "comfyui-default-values-manager"
 Icon = ""
