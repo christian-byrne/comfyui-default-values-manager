@@ -13,7 +13,6 @@ export class DefaultSettingsDialog extends ComfyDialog {
         style: {
           width: "78vw",
           padding: "1.25rem",
-          overflowY: "scroll",
         },
       },
       [
@@ -51,7 +50,8 @@ export class DefaultSettingsDialog extends ComfyDialog {
                 "This only affects new nodes added manually — Not nodes loaded from workflows.",
               style: {
                 textAlign: "center",
-                color: "var(--descrip-text)",
+                color: "var(--drag-text)",
+                opacity: ".64",
               },
             }),
             $el("hr", {
@@ -61,8 +61,11 @@ export class DefaultSettingsDialog extends ComfyDialog {
                 marginTop: "1.25rem",
               },
             }),
+            $el("div", {
+              $: (div) => (this.textElement = div),
+              style: { overflowY: "scroll" },
+            }),
             ...this.createButtons(),
-            $el("div", { $: (div) => (this.textElement = div) }),
           ]
         ),
       ]

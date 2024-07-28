@@ -1,7 +1,7 @@
 
 > #### Adds a row to the settings page:
 
-![alt text](wiki/pictures/settings-location.png)
+![alt text](docs/pictures/settings-location.png)
 
 
 
@@ -9,6 +9,6 @@
 
 
 
-![alt text](wiki/pictures/settings-dialog.png)
+![alt text](docs/pictures/settings-dialog.png)
 
 The custom defaults will only be applied when adding a node manually. It won't alter nodes loaded from workflows/refreshes or nodes that are copy and pasted.
